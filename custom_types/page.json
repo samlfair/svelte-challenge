@@ -19,7 +19,18 @@
 			"type": "Slices",
 			"fieldset": "Slice zone",
 			"config": {
-				"labels": null,
+				"labels": {
+					"text_box": [
+						{
+							"display": "Emoji Left",
+							"name": "emoji_left"
+						},
+						{
+							"display": "Emoji Right",
+							"name": "emoji_right"
+						}
+					]
+				},
 				"choices": {
 					"fun_heading": {
 						"type": "Slice",
